@@ -54,7 +54,7 @@ import tailwind from '~/assets/Image/Skills/tailwind.svg'
 import tensorflow from '~/assets/Image/Skills/tensorflow.svg'
 import typescript from '~/assets/Image/Skills/typescript.svg'
 import vitejs from '~/assets/Image/Skills/vitejs.svg'
-import vue from '~/assets/Image/Skills/vue.svg'
+import vuejs from '~/assets/Image/Skills/vue.svg'
 import vuetifyjs from '~/assets/Image/Skills/vuetifyjs.svg'
 import webix from '~/assets/Image/Skills/webix.svg'
 import wordpress from '~/assets/Image/Skills/wordpress.svg'
@@ -72,8 +72,17 @@ import picsart from '~/assets/Image/Skills/picsart.svg'
 import sketch from '~/assets/Image/Skills/sketch.svg'
 import unity from '~/assets/Image/Skills/unity.svg'
 import wolframalpha from '~/assets/Image/Skills/wolframalpha.svg'
-
+import scss from '~/assets/Image/Skills/scss.svg'
 import canva from '~/assets/Image/Skills/canva.svg'
+import nodejs from '~/assets/Image/Skills/nodejs.svg'
+import expressjs from '~/assets/Image/Skills/expressjs.svg'
+import linux from '~/assets/Image/Skills/linux.svg'
+import gitlab from '~/assets/Image/Skills/gitlab.svg'
+import github from '~/assets/Image/Skills/github.svg'
+import sqlite from '~/assets/Image/Skills/sqlite.svg'
+import terraform from '~/assets/Image/Skills/terraform.svg'
+
+
 
 
 export const skillsImage = (skill: any) => {
@@ -99,7 +108,7 @@ export const skillsImage = (skill: any) => {
             return angular;
         case 'javascript':
             return javascript;
-        case 'next js':
+        case 'nextjs':
             return nextJS;
         case 'nuxt js':
             return nuxtJS;
@@ -109,8 +118,8 @@ export const skillsImage = (skill: any) => {
             return svelte;
         case 'typescript':
             return typescript;
-        case 'vue':
-            return vue;
+        case 'vuejs':
+            return vuejs;
         case 'bootstrap':
             return bootstrap;
         case 'bulma':
@@ -171,8 +180,6 @@ export const skillsImage = (skill: any) => {
             return firebase;
         case 'gimp':
             return gimp;
-        case 'git':
-            return git;
         case 'graphql':
             return graphql;
         case 'lightroom':
@@ -227,6 +234,24 @@ export const skillsImage = (skill: any) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'nodejs':
+            return nodejs;
+        case 'scss':
+            return scss;
+        case 'expressjs':
+            return expressjs;
+        case 'linux':
+            return linux;
+        case 'gitlab':
+            return gitlab;
+        case 'git':
+            return git;
+        case 'github':
+            return github;
+        case 'sqlite':
+            return sqlite;
+        case 'terraform':
+            return terraform;
         default:
             break;
     }
