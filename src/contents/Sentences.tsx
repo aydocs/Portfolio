@@ -11,6 +11,7 @@ export const Contents = {
     DiscordID: 'Your-Dıscord-ID', // Discord ID
     GithubName: 'aydocs', // Github Name
     Instagram: 'aydocs.js', // Instagram Name
+    Twitter: 'aydocs.js', // Twitter Name
 
     Spotfy: {
         ClientID: '', // Spotify ClientID || Client oluşturmak için -> https://developer.spotify.com 
@@ -46,6 +47,12 @@ export const Contents = {
 
     Contact: {
         social: {
+            Github: {
+                name: "Github",
+                url: "https://github.com/aydocs",
+                icon: Icons.Github,
+                navbar: true,
+            },
             Instagram: {
                 name: "Instagram",
                 url: "https://www.instagram.com/aydocs.js/",
@@ -53,10 +60,10 @@ export const Contents = {
 
                 navbar: true,
             },
-            Github: {
-                name: "Github",
-                url: "https://github.com/aydocs",
-                icon: Icons.Github,
+            Twitter: {
+                name: "Twitter",
+                url: "https://x.com/aydocs",
+                icon: Icons.Twitter,
                 navbar: true,
             },
         },
