@@ -6,7 +6,7 @@ export const Contents = {
     // Yardım İçin -> https://github.com/aydocs
     Name: 'Aydocs',
     About: 'Hi, Im Aydocs, a 19 y/o developer from Turkey. Im passionate about web and Discord bot development, and I love turning ideas into real projects. Always learning, always building.',
-    Version: 'v2.0.0',
+    Version: 'v1',
 
     DiscordID: 'Your-Dıscord-ID', // Discord ID
     GithubName: 'aydocs', // Github Name
@@ -20,7 +20,7 @@ export const Contents = {
 
     MetaData: {
         Name: 'Aydo',
-        Url: 'https://www.aydocs.com',
+        Url: 'https://aydocs.vercel.app',
         Description: 'Aydocs Official Website',
     },
 

@@ -8,8 +8,8 @@ function Footer() {
             </div>
             <div className="flex space-x-4 pb-4 sm:pb-0">
                 <h2>
-                    Developed with 💚 by
-                    <a className="px-1 text-[#00dc83] " href={`https://github.com/${Contents.GithubName}`} target="_blank">
+                    Developed with 💜 by
+                    <a className="px-1 text-[#9D4EDD] " href={`https://github.com/${Contents.GithubName}`} target="_blank">
                         {Contents.Name}
                     </a>
                 </h2>
