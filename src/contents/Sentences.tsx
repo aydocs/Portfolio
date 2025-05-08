@@ -15,7 +15,7 @@ export const Contents = {
     Spotfy: {
         ClientID: 'bbd4166ddeeb402bbb630debd1d33a1d', // Spotify ClientID || Client oluşturmak için -> https://developer.spotify.com 
         ClientSecret: 'cee988b4c7f74c09b0a469e7bf866222', // Spotify Client Secret || Client oluşturmak için -> https://developer.spotify.com 
-        RefreshToken: '' // Client Refresh Token || Client oluşturmak için -> https://developer.spotify.com 
+        RefreshToken: 'BQDBKJ5eo5jxbtpWjVOj7ryS84khybFpP_lTqzV7uV-T_m0cTfwvdn5BnBSKPxKgEb11' // Client Refresh Token || Client oluşturmak için -> https://developer.spotify.com 
     },
 
     MetaData: {
